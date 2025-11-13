@@ -37,6 +37,11 @@ main {
 
 .photo {
 	border: none;
+	background: none;
+}
+
+.photo:hover {
+	opacity: 50%;
 }
 
 .droite {
@@ -115,6 +120,7 @@ main {
 	color: #ff7e1b;
 	font-weight: 900;
 	font-size: 20px;
+	background: none;
 }
 
 .plus {
@@ -122,6 +128,7 @@ main {
 	border: none;
 	color: #ff7e1b;
 	font-weight: 900;
+	background: none;
 }
 
 .moins:hover {
