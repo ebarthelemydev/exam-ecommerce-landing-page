@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-family: "Kumbh Sans";
+	gap: 5%;
+	width: 100%;
+}
+
+.gauche {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.selectimg {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+.photo {
+	border: none;
+}
+
+.droite {
+	display: flex;
+	gap: 15px;
+	flex-direction: column;
+}
+
+.sneaker {
+	color: #69707d;
+	font-weight: 700;
+}
+
+.fall {
+	color: #1d2026;
+	font-weight: 700;
+}
+
+.description {
+	color: #69707d;
+}
+
+.reduction {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.prix {
+	color: #1d2026;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.pourcentage {
+	display: flex;
+	background-color: #1d2026;
+	color: white;
+	font-weight: 700;
+	border-radius: 6px;
+	font-size: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	align-items: center;
+	justify-content: center;
+}
+
+.prix-base {
+	color: #69707d;
+	text-decoration: line-through;
+}
+
+.pay {
+	display: flex;
+	padding-top: 30px;
+	gap: 15%;
+}
+
+.addtopanier {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	gap: 30px;
+	background-color: #f6f8fd;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.moins {
+	border: none;
+	color: #ff7e1b;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.plus {
+	font-size: 20px;
+	border: none;
+	color: #ff7e1b;
+	font-weight: 900;
+}
+
+.moins:hover {
+	color: #ffab6a;
+}
+
+.plus:hover {
+	color: #ffab6a;
+}
+
+.txtaddtocart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1d2026;
+	border: none;
+	background-color: #ff7e1b;
+	font-weight: 700;
+	border-radius: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	gap: 10px;
+}
+
+.txtaddtocart:hover {
+	background-color: #ffab6a;
+}
+
+.panier {
+	margin-left: 20%;
+}
